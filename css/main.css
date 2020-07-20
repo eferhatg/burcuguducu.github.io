@@ -1,0 +1,165 @@
+
+body {
+    font-family: 'Just Me Again Down Here', cursive !important;
+
+  }
+
+.has-bg-img { 
+    background: url('/images/hero.jpg') center; 
+    background-size:cover; }
+
+.navbar {
+    font-size: 24pt !important;
+}
+
+.main-hero-title {
+  font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.125;
+}
+
+.main-hero-container{
+  margin-top:20%;
+}
+
+.hero-body .container {
+   
+    text-align: center;
+}
+
+.imghover {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+  opacity: 0.99;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+}
+.imghover:before {
+  content: '';
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  width: 100%;
+  height: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  transition-property: top, opacity;
+  transition-duration: 0.3s;
+}
+.imghover img {
+  display: block;
+  max-width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.imghover .details {
+  font-size: 16px;
+  padding: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+.imghover .details span {
+  display: block;
+  opacity: 0;
+  position: relative;
+  top: 100px;
+  transition-property: top, opacity;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+.imghover .details .hovertitle {
+  line-height: 1;
+  font-weight: 600;
+  font-size: 18px;
+}
+.imghover .details .hoverinfo {
+  line-height: 1.2;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.imghover:focus:before, .imghover:hover:before, .imghover:focus span, .imghover:hover span {
+  opacity: 1;
+}
+.imghover:focus:before, .imghover:hover:before {
+  top: 50%;
+}
+.imghover:focus span, .imghover:hover span {
+  top: 0;
+}
+.imghover:focus .hovertitle, .imghover:hover .hovertitle {
+  transition-delay: 0.15s;
+}
+.imghover:focus .hoverinfo, .imghover:hover .hoverinfo {
+  transition-delay: 0.25s;
+}
+
+.subhero{
+  background-color: #d0921c !important;
+}
+
+.grid {
+  margin:10px;
+}
+
+.grid .column .box {
+  padding:0.25rem;
+}
+
+.social img {
+filter: invert(100%) sepia(7%) saturate(7500%) hue-rotate(290deg) brightness(112%) contrast(105%);
+vertical-align: middle;
+}
+
+.social-black a, .social-black img {
+  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg) brightness(97%) contrast(103%);
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
+
+.navbar-burger{
+  color:#fff !important;
+}
+
+.footer{
+  
+padding: 2.5rem 1.5rem 2.5rem !important;
+}
+.about-text {
+  font-size: 1.5rem !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .hero.is-success .navbar-menu {
+    background-color: #d0921c !important;
+  }
+  .hero.is-primary .navbar-menu {
+    background-color: #d0921c !important;
+  }
+}
+
+.hero.is-success .navbar-link.is-active, .hero.is-success .navbar-link:hover, .hero.is-success a.navbar-item.is-active, .hero.is-success a.navbar-item:hover {
+  background-color: #c44819;
+  color: #fff;
+}
+
+.hero.is-primary .navbar-link.is-active, .hero.is-primary .navbar-link:hover, .hero.is-primary a.navbar-item.is-active, .hero.is-primary a.navbar-item:hover {
+  background-color: #c44819;
+  color: #fff;
+}
+
+.tabs{
+  font-size: 1.15rem;
+}
+
+.tabs li.is-active a {
+  border-bottom-color: #d0921c !important;
+    color: #d0921c !important;
+}
+
