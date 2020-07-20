@@ -163,3 +163,6 @@ padding: 2.5rem 1.5rem 2.5rem !important;
     color: #d0921c !important;
 }
 
+.navbar-item img.logo {
+  max-height: 3rem !important;
+}
