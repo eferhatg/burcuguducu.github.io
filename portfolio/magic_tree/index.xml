@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Magic tree on Burcu Güdücü</title>
-    <link>http://burcuguducu.com/portfolio/magic_tree/</link>
+    <link>https://burcuguducu.com/portfolio/magic_tree/</link>
     <description>Recent content in Magic tree on Burcu Güdücü</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jul 2020 18:33:39 +0300</lastBuildDate>
     
-	<atom:link href="http://burcuguducu.com/portfolio/magic_tree/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://burcuguducu.com/portfolio/magic_tree/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

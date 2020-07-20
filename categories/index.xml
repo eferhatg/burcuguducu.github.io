@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Burcu Güdücü</title>
-    <link>http://burcuguducu.com/categories/</link>
+    <link>https://burcuguducu.com/categories/</link>
     <description>Recent content in Categories on Burcu Güdücü</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Jul 2020 18:33:39 +0300</lastBuildDate>
     
-	<atom:link href="http://burcuguducu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://burcuguducu.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Books</title>
-      <link>http://burcuguducu.com/categories/books/</link>
+      <link>https://burcuguducu.com/categories/books/</link>
       <pubDate>Sat, 18 Jul 2020 02:05:10 +0300</pubDate>
       
-      <guid>http://burcuguducu.com/categories/books/</guid>
+      <guid>https://burcuguducu.com/categories/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal Works</title>
-      <link>http://burcuguducu.com/categories/personal/</link>
+      <link>https://burcuguducu.com/categories/personal/</link>
       <pubDate>Sat, 18 Jul 2020 02:05:10 +0300</pubDate>
       
-      <guid>http://burcuguducu.com/categories/personal/</guid>
+      <guid>https://burcuguducu.com/categories/personal/</guid>
       <description></description>
     </item>
     
